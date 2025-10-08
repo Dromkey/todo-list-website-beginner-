@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #87b2f1, #4286f3);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.container {
+  background: white;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  margin-left: 25px;
+  flex: 1;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+
+#add-btn {
+  background: #4caf50;
+  color: white;
+}
+
+#add-btn:hover {
+  background: #45a049;
+}
+
+.filter-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 20px;
+
+}
+
+.filter-btn {
+  flex: 1;
+  background: #ddd;
+  color: #333;
+  margin: 0 3px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.filter-btn.active {
+  background: #4caf50;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.delete-btn {
+  background: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.delete-btn:hover {
+  background: #e04e4e;
+}
